@@ -157,7 +157,7 @@ export default function Home() {
             <div className="servicecontainer">
               {/* First pair */}
               <div className="flex justify-center p-8">
-                <div className="service-item bg-gray-200 m-4 text-white rounded-lg overflow-hidden transition duration-300  hover:border-4 hover:bg-green-200 hover:border-green-500">
+                <div className="service-item bg-gray-800 m-4 text-white rounded-lg overflow-hidden transition duration-300  hover:border-4 hover:bg-green-200 hover:border-green-500">
                   <div class="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
                     <h2 class="text-2xl font-bold tracking-tight text-green-500">
                       01
@@ -173,7 +173,7 @@ export default function Home() {
                     </h2>
                   </div>
                 </div>
-                <div className="service-item bg-gray-200 m-4 text-white rounded-lg overflow-hidden transition duration-300  hover:border-4 hover:bg-blue-200 hover:border-blue-500">
+                <div className="service-item bg-gray-800 m-4 text-white rounded-lg overflow-hidden transition duration-300  hover:border-4 hover:bg-blue-200 hover:border-blue-500">
                   <div class="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
                     <h2 class="text-2xl font-bold tracking-tight text-blue-500">
                       02
@@ -192,7 +192,7 @@ export default function Home() {
 
               {/* Second pair */}
               <div className="flex justify-center p-8">
-                <div className="service-item bg-gray-200 m-4 text-white rounded-lg overflow-hidden transition duration-300  hover:border-4 hover:bg-pink-200 hover:border-pink-500">
+                <div className="service-item bg-gray-800 m-4 text-white rounded-lg overflow-hidden transition duration-300  hover:border-4 hover:bg-pink-200 hover:border-pink-500">
                   <div class="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
                     <h2 class="text-2xl font-bold tracking-tight text-pink-500">
                       03
@@ -210,7 +210,7 @@ export default function Home() {
                   </div>
                 </div>
                 <div
-                  className="service-item bg-gray-200 m-4 text-white rounded-lg overflow-hidden transition duration-300
+                  className="service-item bg-gray-800 m-4 text-white rounded-lg overflow-hidden transition duration-300
                  hover:border-4 hover:bg-orange-200 hover:border-orange-500"
                 >
                   <div class="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
@@ -384,8 +384,125 @@ export default function Home() {
       </section>
 
       <section className="4divcontainer" id="section-6"></section>
-      <section className="ourvision" id="section-7"></section>
-      <Blogs/>
+      <section className="ourvision mt-20" id="section-7">
+        <div className="flex flex-col items-center">
+          <div className="font-bold text-lg mt-2">OUR VISION</div>
+          <div className="font-bold text-3xl mt-2">AI for Social Good</div>
+          <div class="max-w-3xl font-bold text-gray-500 mt-2 items-center">
+            <p class="text-wrap">
+              Explainable AI (XAI) is an emerging subject of machine learning
+              research that refers to strategies that try to provide
+              transparency to typically opaque AI models and their predictions.
+            </p>
+          </div>
+        </div>
+
+        <div className="stepper flex justify-center mt-20 ">
+          {" "}
+          <ol class="relative text-gray-500 border-s border-gray-200 dark:border-gray-700 dark:text-gray-400">
+            <li class="mb-10 ms-6">
+              <span class="absolute flex items-center justify-center w-8 h-8 bg-green-200 rounded-full -start-4 ring-4 ring-white dark:ring-gray-900 dark:bg-green-900">
+                <svg
+                  class="w-3.5 h-3.5 text-green-500 dark:text-green-400"
+                  aria-hidden="true"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 16 12"
+                >
+                  <path
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M1 5.917 5.724 10.5 15 1.5"
+                  />
+                </svg>
+              </span>
+              <h3 class="font-bold text-xl text-white leading-tight">
+                Diversity & Fairness
+              </h3>
+              <p class="text-sm">
+                When training our AI models, <br />
+                we consider ethical and social implications <br />
+                of algorithm-based decision making.
+                <br /> Our solutions use high-quality
+                <br /> and fairly-represented data sets <br />
+                to eliminate human cognitive biases.
+              </p>
+            </li>
+            <li class="mb-10 ms-6">
+              <span class="absolute flex items-center justify-center w-8 h-8 bg-gray-100 rounded-full -start-4 ring-4 ring-white dark:ring-gray-900 dark:bg-gray-700">
+                <svg
+                  class="w-3.5 h-3.5 text-gray-500 dark:text-gray-400"
+                  aria-hidden="true"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="currentColor"
+                  viewBox="0 0 20 16"
+                >
+                  <path d="M18 0H2a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2ZM6.5 3a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5ZM3.014 13.021l.157-.625A3.427 3.427 0 0 1 6.5 9.571a3.426 3.426 0 0 1 3.322 2.805l.159.622-6.967.023ZM16 12h-3a1 1 0 0 1 0-2h3a1 1 0 0 1 0 2Zm0-3h-3a1 1 0 1 1 0-2h3a1 1 0 1 1 0 2Zm0-3h-3a1 1 0 1 1 0-2h3a1 1 0 1 1 0 2Z" />
+                </svg>
+              </span>
+              <h3 class="font-bold text-xl text-white leading-tight">
+                Regulatory Compliance
+              </h3>
+              <p class="text-sm">
+                Working with clients globally, <br />
+                LENS acknowledges applicable data <br />
+                privacy regulations, such as the GDPR,
+                <br /> HIPAA and others, in all our <br />
+                solutions handling sensitive data. <br />
+                We also ensure our algorithms allow <br />
+                for the required level of decision-making <br />
+                transparency and explainability.
+              </p>
+            </li>
+            <li class="mb-10 ms-6">
+              <span class="absolute flex items-center justify-center w-8 h-8 bg-gray-100 rounded-full -start-4 ring-4 ring-white dark:ring-gray-900 dark:bg-gray-700">
+                <svg
+                  class="w-3.5 h-3.5 text-gray-500 dark:text-gray-400"
+                  aria-hidden="true"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="currentColor"
+                  viewBox="0 0 18 20"
+                >
+                  <path d="M16 1h-3.278A1.992 1.992 0 0 0 11 0H7a1.993 1.993 0 0 0-1.722 1H2a2 2 0 0 0-2 2v15a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2Zm-3 14H5a1 1 0 0 1 0-2h8a1 1 0 0 1 0 2Zm0-4H5a1 1 0 0 1 0-2h8a1 1 0 1 1 0 2Zm0-5H5a1 1 0 0 1 0-2h2V2h4v2h2a1 1 0 1 1 0 2Z" />
+                </svg>
+              </span>
+              <h3 class="font-bold text-xl text-white leading-tight">
+                Code of Ethics
+              </h3>
+              <p class="text-sm ">
+                LENS believes in a just, <br />
+                non-violent world of equality and fairness.
+                <br /> We prize democratic values, <br />
+                civil liberties and open and informed debate.
+                <br /> When used to further these values,
+                <br /> algorithm-based decision-making models
+                <br /> can continue to make the world a safer,
+                <br /> better place for everyone.
+              </p>
+            </li>
+            <li class="ms-6">
+              <span class="absolute flex items-center justify-center w-8 h-8 bg-gray-100 rounded-full -start-4 ring-4 ring-white dark:ring-gray-900 dark:bg-gray-700">
+                <svg
+                  class="w-3.5 h-3.5 text-gray-500 dark:text-gray-400"
+                  aria-hidden="true"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="currentColor"
+                  viewBox="0 0 18 20"
+                >
+                  <path d="M16 1h-3.278A1.992 1.992 0 0 0 11 0H7a1.993 1.993 0 0 0-1.722 1H2a2 2 0 0 0-2 2v15a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2ZM7 2h4v3H7V2Zm5.7 8.289-3.975 3.857a1 1 0 0 1-1.393 0L5.3 12.182a1.002 1.002 0 1 1 1.4-1.436l1.328 1.289 3.28-3.181a1 1 0 1 1 1.392 1.435Z" />
+                </svg>
+              </span>
+              <h3 class="font-bold text-xl text-white leading-tight">
+                Confirmation
+              </h3>
+              <p class="text-sm">Step details here</p>
+            </li>
+          </ol>
+        </div>
+      </section>
+      <Blogs />
 
       <section className="weworkclient" id="section-8"></section>
       <section className="Bynumber" id="section-8"></section>
