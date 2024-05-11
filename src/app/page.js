@@ -142,7 +142,7 @@ export default function Home() {
           <div className="servicelist">
             <div className="servicecontainer">
               {/* First pair */}
-              <div className="flex justify-center p-8">
+              <div className="flex justify-center p-8 flex-col sm:flex-row">
                 <div className="service-item bg-gray-800 m-4 text-white rounded-lg overflow-hidden transition duration-300  hover:border-2 hover:bg-green-200 hover:border-green-500">
                   <div className="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
                     <h2 className="text-2xl font-bold tracking-tight text-green-500">
@@ -177,7 +177,7 @@ export default function Home() {
               </div>
 
               {/* Second pair */}
-              <div className="flex justify-center p-8">
+              <div className="flex justify-center p-8 flex-col sm:flex-row">
                 <div className="service-item bg-gray-800 m-4 text-white rounded-lg overflow-hidden transition duration-300  hover:border-2 hover:bg-pink-200 hover:border-pink-500">
                   <div className="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
                     <h2 className="text-2xl font-bold tracking-tight text-pink-500">
@@ -195,10 +195,7 @@ export default function Home() {
                     </h2>
                   </div>
                 </div>
-                <div
-                  className="service-item bg-gray-800 m-4 text-white rounded-lg overflow-hidden transition duration-300
-                 hover:border-2 hover:bg-orange-200 hover:border-orange-500"
-                >
+                <div className="service-item bg-gray-800 m-4 text-white rounded-lg overflow-hidden transition duration-300 hover:border-2 hover:bg-orange-200 hover:border-orange-500">
                   <div className="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
                     <h2 className="text-2xl font-bold tracking-tight text-orange-500">
                       04
@@ -219,6 +216,7 @@ export default function Home() {
           </div>
         </div>
       </section>
+
       <section className="meettrue-ai" id="section-4"></section>
       <section className="why-choose-plans mt-10" id="section-5">
         <div className="flex flex-col justify-center items-center">
@@ -368,8 +366,8 @@ export default function Home() {
       </section>
 
       <section className="4divcontainer" id="section-6">
-        <div className="fourcard flex justify-between gap-5 p-8">
-          <div className="card flex flex-col justify-between items-center bg-gray-800 hover:bg-green-200 p-6 rounded-lg transition duration-300 ease-in-out hover:border-2 border-green-500">
+        <div className="fourcard flex flex-col gap-5 p-8">
+          <div className="card bg-gray-800 hover:bg-green-200 p-6 rounded-lg transition duration-300 ease-in-out hover:border-2 border-green-500">
             <div className="text-center">
               <h2 className="text-white font-bold">Exclusive Rights</h2>
             </div>
@@ -379,7 +377,7 @@ export default function Home() {
                 height={100}
                 src={green}
                 alt="Image"
-                className="w-32 h-32 rounded-full"
+                className="w-32 h-32 rounded-full mx-auto"
               />
             </div>
             <div className="text-center">
@@ -390,7 +388,7 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="card flex flex-col justify-between items-center bg-gray-800 hover:bg-blue-200 p-6 rounded-lg transition duration-300 ease-in-out hover:border-2 border-blue-500">
+          <div className="card bg-gray-800 hover:bg-blue-200 p-6 rounded-lg transition duration-300 ease-in-out hover:border-2 border-blue-500">
             <div className="text-center">
               <h2 className="text-white font-bold">Exclusive Rights</h2>
             </div>
@@ -400,7 +398,7 @@ export default function Home() {
                 height={100}
                 src={blue}
                 alt="Image"
-                className="w-32 h-32 rounded-full"
+                className="w-32 h-32 rounded-full mx-auto"
               />
             </div>
             <div className="text-center">
@@ -411,7 +409,7 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="card flex flex-col justify-between items-center bg-gray-800 hover:bg-red-200 p-6 rounded-lg transition duration-300 ease-in-out hover:border-2 border-red-500">
+          <div className="card bg-gray-800 hover:bg-red-200 p-6 rounded-lg transition duration-300 ease-in-out hover:border-2 border-red-500">
             <div className="text-center">
               <h2 className="text-white font-bold">Exclusive Rights</h2>
             </div>
@@ -421,7 +419,7 @@ export default function Home() {
                 height={100}
                 src={red}
                 alt="Image"
-                className="w-32 h-32 rounded-full"
+                className="w-32 h-32 rounded-full mx-auto"
               />
             </div>
             <div className="text-center">
@@ -432,7 +430,7 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="card flex flex-col justify-between items-center bg-gray-800 hover:bg-orange-200 p-6 rounded-lg transition duration-300 ease-in-out hover:border-2 border-orange-500 ">
+          <div className="card bg-gray-800 hover:bg-orange-200 p-6 rounded-lg transition duration-300 ease-in-out hover:border-2 border-orange-500">
             <div className="text-center">
               <h2 className="text-white font-bold">Exclusive Rights</h2>
             </div>
@@ -442,7 +440,7 @@ export default function Home() {
                 height={100}
                 src={orange}
                 alt="Image"
-                className="w-32 h-32 rounded-full"
+                className="w-32 h-32 rounded-full mx-auto"
               />
             </div>
             <div className="text-center">
@@ -454,6 +452,7 @@ export default function Home() {
           </div>
         </div>
       </section>
+
       <section className="ourvision mt-20" id="section-7">
         <div className="flex flex-col items-center">
           <div className="font-bold text-lg mt-2">OUR VISION</div>
