@@ -90,21 +90,34 @@ export default function Home() {
       </nav>
 
       {/* Section 1: Gradient Background with Button */}
-      <section className="py-20 relative border border-gray-400" id="section-1">
-        <div className="absolute inset-0 bg-gradient-to-br from-red-500 to-blue-500 p-10 flex items-center justify-center">
-          <div className="max-w-3xl mx-auto text-center">
-            <h2 className="text-white text-2xl mb-2">
+      {/* Section 1: Video Background with Centered Content */}
+      <section className="py-80 relative border border-gray-400" id="section-1">
+        <div className="absolute inset-0 overflow-hidden h-200 flex items-center justify-center">
+          <video
+            autoPlay
+            loop
+            muted
+            className="absolute inset-0 w-full h-100 object-cover"
+          >
+            <source
+              src="https://res.cloudinary.com/detwrhe0k/video/upload/v1691730947/lenscorp-website/pexels-pressmaster-3129671-3840x2160-30fps_1_ak5nsz_d7alrn.mp4"
+              type="video/mp4"
+            />
+            Your browser does not support the video tag.
+          </video>
+          <div className="max-w-3xl mx-auto text-center relative z-10">
+            <h2 className="text-white text-4xl font-bold mb-2">
               We are at the forefront of AI
             </h2>
             <h3 className="text-white text-2xl mb-2">
               From Conserving Wildlife to Automatically Generating Caricatures
             </h3>
-            <h5 className="text-white mb-4">– We Do It All</h5>
+            <h5 className="text-white mb-4 font-bold">– We Do It All</h5>
             <a
               href="/about"
-              className="bg-red-500 text-white py-2 px-4 rounded-lg text-lg font-bold hover:bg-red-600"
+              className="bg-trasparent hover:bg-white hover:px-7 text-black py-2 px-4 rounded-lg text-lg font-bold  border-2 border-white "
             >
-              Lear More
+              Learn More
             </a>
           </div>
         </div>
@@ -126,7 +139,7 @@ export default function Home() {
             <div className="servicecontainer">
               {/* First pair */}
               <div className="flex justify-center p-8">
-                <div className="service-item bg-gray-800 m-4 text-white rounded-lg overflow-hidden transition duration-300  hover:border-4 hover:bg-green-200 hover:border-green-500">
+                <div className="service-item bg-gray-800 m-4 text-white rounded-lg overflow-hidden transition duration-300  hover:border-2 hover:bg-green-200 hover:border-green-500">
                   <div className="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
                     <h2 className="text-2xl font-bold tracking-tight text-green-500">
                       01
@@ -142,7 +155,7 @@ export default function Home() {
                     </h2>
                   </div>
                 </div>
-                <div className="service-item bg-gray-800 m-4 text-white rounded-lg overflow-hidden transition duration-300  hover:border-4 hover:bg-blue-200 hover:border-blue-500">
+                <div className="service-item bg-gray-800 m-4 text-white rounded-lg overflow-hidden transition duration-300  hover:border-2 hover:bg-blue-200 hover:border-blue-500">
                   <div className="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
                     <h2 className="text-2xl font-bold tracking-tight text-blue-500">
                       02
@@ -161,7 +174,7 @@ export default function Home() {
 
               {/* Second pair */}
               <div className="flex justify-center p-8">
-                <div className="service-item bg-gray-800 m-4 text-white rounded-lg overflow-hidden transition duration-300  hover:border-4 hover:bg-pink-200 hover:border-pink-500">
+                <div className="service-item bg-gray-800 m-4 text-white rounded-lg overflow-hidden transition duration-300  hover:border-2 hover:bg-pink-200 hover:border-pink-500">
                   <div className="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
                     <h2 className="text-2xl font-bold tracking-tight text-pink-500">
                       03
@@ -180,7 +193,7 @@ export default function Home() {
                 </div>
                 <div
                   className="service-item bg-gray-800 m-4 text-white rounded-lg overflow-hidden transition duration-300
-                 hover:border-4 hover:bg-orange-200 hover:border-orange-500"
+                 hover:border-2 hover:bg-orange-200 hover:border-orange-500"
                 >
                   <div className="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
                     <h2 className="text-2xl font-bold tracking-tight text-orange-500">
