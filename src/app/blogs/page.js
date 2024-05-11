@@ -2,7 +2,12 @@ import React from "react";
 
 const Blogs = () => {
   return (
-    <section className="ourblogs" id="section-8">
+    <section className="ourblogs mt-10" id="section-8">
+      <div className="flex flex-col items-center justify-center">
+        <div className="text-lg font-bold">OUR BLOGS</div>
+        <div className="text-2xl font-bold">Inhouse Mindscape</div>
+      </div>
+
       <div className="flex justify-between gap-8 p-8">
         <div className="card bg-gray-600 p-10 rounded-lg relative overflow-hidden transition-all duration-300 transform hover:scale-105">
           <div className="hover:bg-gray-700">

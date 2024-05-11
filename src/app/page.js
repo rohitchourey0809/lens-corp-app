@@ -454,12 +454,10 @@ export default function Home() {
         <div className="flex flex-col items-center">
           <div className="font-bold text-lg mt-2">OUR VISION</div>
           <div className="font-bold text-3xl mt-2">AI for Social Good</div>
-          <div className="max-w-3xl font-bold text-gray-500 mt-2 items-center">
-            <p className="text-wrap">
+          <div className="max-w-3xl font-bold text-gray-500 items-center text-wrap">
               Explainable AI (XAI) is an emerging subject of machine learning
               research that refers to strategies that try to provide
               transparency to typically opaque AI models and their predictions.
-            </p>
           </div>
         </div>
 
@@ -547,23 +545,6 @@ export default function Home() {
                 <br /> can continue to make the world a safer,
                 <br /> better place for everyone.
               </p>
-            </li>
-            <li className="ms-6">
-              <span className="absolute flex items-center justify-center w-8 h-8 bg-gray-100 rounded-full -start-4 ring-4 ring-white dark:ring-gray-900 dark:bg-gray-700">
-                <svg
-                  className="w-3.5 h-3.5 text-gray-500 dark:text-gray-400"
-                  aria-hidden="true"
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="currentColor"
-                  viewBox="0 0 18 20"
-                >
-                  <path d="M16 1h-3.278A1.992 1.992 0 0 0 11 0H7a1.993 1.993 0 0 0-1.722 1H2a2 2 0 0 0-2 2v15a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2ZM7 2h4v3H7V2Zm5.7 8.289-3.975 3.857a1 1 0 0 1-1.393 0L5.3 12.182a1.002 1.002 0 1 1 1.4-1.436l1.328 1.289 3.28-3.181a1 1 0 1 1 1.392 1.435Z" />
-                </svg>
-              </span>
-              <h3 className="font-bold text-xl text-white leading-tight">
-                Confirmation
-              </h3>
-              <p className="text-sm">Step details here</p>
             </li>
           </ol>
         </div>
