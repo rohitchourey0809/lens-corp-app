@@ -95,7 +95,7 @@ export default function Home() {
 
       {/* Section 1: Gradient Background with Button */}
       {/* Section 1: Video Background with Centered Content */}
-      <section className="py-80 relative border border-gray-400" id="section-1">
+      <section className="py-80 relative" id="section-1">
         <div className="absolute inset-0 overflow-hidden h-200 flex items-center justify-center">
           <video
             autoPlay
