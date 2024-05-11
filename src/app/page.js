@@ -1,6 +1,10 @@
 import Image from "next/image";
 
 import navimage from "../../public/nav_logo.webp";
+import green from "../../public/green.webp";
+import blue from "../../public/blue.webp";
+import red from "../../public/red.webp";
+import orange from "../../public/yellow.webp";
 
 import Link from "next/link";
 import About from "./about/page";
@@ -373,7 +377,7 @@ export default function Home() {
               <Image
                 width={100}
                 height={100}
-                src=""
+                src={green}
                 alt="Image"
                 className="w-32 h-32 rounded-full"
               />
@@ -394,7 +398,7 @@ export default function Home() {
               <Image
                 width={100}
                 height={100}
-                src=""
+                src={blue}
                 alt="Image"
                 className="w-32 h-32 rounded-full"
               />
@@ -415,7 +419,7 @@ export default function Home() {
               <Image
                 width={100}
                 height={100}
-                src=""
+                src={red}
                 alt="Image"
                 className="w-32 h-32 rounded-full"
               />
@@ -436,7 +440,7 @@ export default function Home() {
               <Image
                 width={100}
                 height={100}
-                src=""
+                src={orange}
                 alt="Image"
                 className="w-32 h-32 rounded-full"
               />
@@ -455,9 +459,9 @@ export default function Home() {
           <div className="font-bold text-lg mt-2">OUR VISION</div>
           <div className="font-bold text-3xl mt-2">AI for Social Good</div>
           <div className="max-w-3xl font-bold text-gray-500 items-center text-wrap">
-              Explainable AI (XAI) is an emerging subject of machine learning
-              research that refers to strategies that try to provide
-              transparency to typically opaque AI models and their predictions.
+            Explainable AI (XAI) is an emerging subject of machine learning
+            research that refers to strategies that try to provide transparency
+            to typically opaque AI models and their predictions.
           </div>
         </div>
 
