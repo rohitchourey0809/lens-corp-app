@@ -9,6 +9,7 @@ import orange from "../../public/yellow.webp";
 import Link from "next/link";
 import About from "./about/page";
 import Blogs from "./blogs/page";
+import FaqlensCorp from "./components/FaqlensCorp";
 
 export default function Home() {
   return (
@@ -570,7 +571,9 @@ export default function Home() {
 
       <section className="weworkclient" id="section-8"></section>
       <section className="Bynumber" id="section-8"></section>
-      <section className="gettoknow" id="section-8"></section>
+      <section className="gettoknow" id="section-8">
+        <FaqlensCorp />
+      </section>
       <section className="getintouch" id="section-8"></section>
       <footer className="footer">
         <footer className="bg-white rounded-lg shadow  dark:bg-gray-800">
