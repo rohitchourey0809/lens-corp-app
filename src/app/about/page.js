@@ -4,13 +4,13 @@ import cardimgeImage from "../../../public/aboutLatest.webp";
 
 const About = () => {
   return (
-    <section className="w-full mb-4" id="section-2">
+    <section className="w-full m-auto p-auto" id="section-2">
       <div className="aboutdiv text-white flex flex-col justify-between items-center w-full md:w-auto p-0 hover:p-4">
         <p className="text-3xl font-bold mb-4">About Us</p>
-        <div className="carddiv flex flex-col md:flex-row justify-between items-center p-8 md:p-20 border-2 gap-8 rounded-lg shadow-md bg-gray-900">
+        <div className="carddiv flex flex-col md:flex-row justify-between items-center p-8 md:p-16  gap-8 rounded-lg shadow-md bg-gray-900">
           {/* Left side content */}
           <div className="leftcarddiv md:w-1/2 mb-8 md:mb-0 md:mr-8">
-            <h1 className="text-6xl font-bold mb-2">Welcome To LENS</h1>
+            <h1 className="text-4xl font-bold mb-2">Welcome To LENS</h1>
             <div className="text-lg mb-4">
               <p>
                 We put our hearts, souls and sweat into designing <br />

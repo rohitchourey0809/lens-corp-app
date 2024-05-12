@@ -21,12 +21,12 @@ const Blogs = () => {
               the marketing landscape...
             </p>
             <div className="absolute bottom-0 left-0 bg-gray-700 hover:bg-red-600 transition-colors duration-300 opacity-0 hover:opacity-100">
-              <a
+              <Link
                 href="#"
                 className="block text-red-500 py-2 px-4 font-bold hover:text-white"
               >
                 Read More
-              </a>
+              </Link>
             </div>
           </div>
         </div>
