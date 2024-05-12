@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const Blogs = () => {
@@ -34,18 +35,18 @@ const Blogs = () => {
             <h2 className="text-red-500 font-bold">New!</h2>
             <h1 className="font-bold">Generative AI</h1>
             <p className="text-black">
-              In today's data-driven marketing world, keeping up with content
+              In todays data-driven marketing world, keeping up with content
               creation demands can be a challenge. Read our latest blog to
               explore the power of Generative AI and its potential to reshape
               the marketing landscape...
             </p>
             <div className="absolute bottom-0 left-0 bg-gray-700 hover:bg-red-600 transition-colors duration-300 opacity-0 hover:opacity-100">
-              <a
+              <Link
                 href="#"
                 className="block text-red-500 font-bold hover:text-white"
               >
                 Read More
-              </a>
+              </Link>
             </div>
           </div>
         </div>
