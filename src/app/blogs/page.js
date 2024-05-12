@@ -8,8 +8,8 @@ const Blogs = () => {
         <div className="text-2xl font-bold">Inhouse Mindscape</div>
       </div>
 
-      <div className="flex justify-between gap-8 p-8">
-        <div className="card bg-gray-600 p-10 rounded-lg relative overflow-hidden transition-all duration-300 transform hover:scale-105">
+      <div className="flex flex-col md:flex-row justify-center gap-8 p-8 ">
+        <div className="card bg-gray-600 p-8 md:p-10 rounded-lg relative overflow-hidden transition-all duration-300 transform hover:scale-105 flex-grow max-w-80">
           <div className="hover:bg-gray-700">
             <h2 className="text-red-500 font-bold">New!</h2>
             <h1 className="font-bold">Generative AI</h1>
@@ -29,12 +29,12 @@ const Blogs = () => {
             </div>
           </div>
         </div>
-        <div className="card bg-gray-600 p-10 rounded-lg relative overflow-hidden transition-all duration-300 transform hover:scale-105">
+        <div className="card bg-gray-600 p-8 md:p-10 rounded-lg relative overflow-hidden transition-all duration-300 transform hover:scale-105 flex-grow max-w-80">
           <div className="hover:bg-gray-700">
             <h2 className="text-red-500 font-bold">New!</h2>
             <h1 className="font-bold">Generative AI</h1>
             <p className="text-black">
-              In todays data-driven marketing world, keeping up with content
+              In today's data-driven marketing world, keeping up with content
               creation demands can be a challenge. Read our latest blog to
               explore the power of Generative AI and its potential to reshape
               the marketing landscape...

@@ -1,4 +1,4 @@
-"use client";
+"use client"
 import React, { useState } from "react";
 import "./FaqlensCorp.css";
 
@@ -20,68 +20,30 @@ const FaqlensCorp = () => {
     },
     {
       id: 3,
-      question: "Do I need to sign a contract?",
+      question: "How do I begin collaboration?",
       answer:
-        "We will first work with you to comprehend your requirements in detail. Thereafter, we would draft an agreement with proposed solutions. After assessing possible challenges and pitfalls and identifying ways to overcome them, we will jointly sign an agreement, not a binding contract.",
+        "Please contact us at solutions@lenscorp.ai. We usually respond within 24 Hrs..",
     },
-    {
-      id: 4,
-      question: "How do we ensure quality of deliverables?",
-      answer:
-        "We are researchers, first. We thoroughly benchmark our proposed solutions against internal and public datasets and baselines after each development sprint. After final delivery, we will continuously enhance our delivery based on your feedbacks.",
-    },
-    {
-      id: 5,
-      question: "Do I need to sign a contract?",
-      answer:
-        "We will first work with you to comprehend your requirements in detail. Thereafter, we would draft an agreement with proposed solutions. After assessing possible challenges and pitfalls and identifying ways to overcome them, we will jointly sign an agreement, not a binding contract.",
-    },
-    {
-      id: 6,
-      question: "How do we ensure quality of deliverables?",
-      answer:
-        "We are researchers, first. We thoroughly benchmark our proposed solutions against internal and public datasets and baselines after each development sprint. After final delivery, we will continuously enhance our delivery based on your feedbacks.",
-    },
-    // Add more question-answer pairs here
   ];
   const questionsAndAnswers2 = [
     {
-      id: 7,
-      question: "Do I need to sign a contract?",
+      id: 4,
+      question: "What services do we offer?",
       answer:
-        "We will first work with you to comprehend your requirements in detail. Thereafter, we would draft an agreement with proposed solutions. After assessing possible challenges and pitfalls and identifying ways to overcome them, we will jointly sign an agreement, not a binding contract.",
+        "We build accurate and efficient AI systems for your business. Our ethically-trained solutions are paving a new path forward to create explainable, transparent, and easily customizable. In addition, we grant ownership of all copyrights to the system, software, and model to you.",
     },
     {
-      id: 8,
-      question: "How do we ensure quality of deliverables?",
+      id: 5,
+      question: "How do we ensure user privacy?",
       answer:
-        "We are researchers, first. We thoroughly benchmark our proposed solutions against internal and public datasets and baselines after each development sprint. After final delivery, we will continuously enhance our delivery based on your feedbacks.",
+        "We do not share, sell, or rent your competitive information (including any and all data) to any third party.Since we grant exclusive Intellectual Property Rights back to you, we have no intention of violating any user privacy.",
     },
     {
-      id: 9,
-      question: "Do I need to sign a contract?",
+      id: 6,
+      question: "How can I pay for the services",
       answer:
-        "We will first work with you to comprehend your requirements in detail. Thereafter, we would draft an agreement with proposed solutions. After assessing possible challenges and pitfalls and identifying ways to overcome them, we will jointly sign an agreement, not a binding contract.",
+        "We split the entire project into multiple milestones.We work on an advanced milestone payment basis with an option to drop off remaining milestones anytime.",
     },
-    {
-      id: 10,
-      question: "How do we ensure quality of deliverables?",
-      answer:
-        "We are researchers, first. We thoroughly benchmark our proposed solutions against internal and public datasets and baselines after each development sprint. After final delivery, we will continuously enhance our delivery based on your feedbacks.",
-    },
-    {
-      id: 11,
-      question: "Do I need to sign a contract?",
-      answer:
-        "We will first work with you to comprehend your requirements in detail. Thereafter, we would draft an agreement with proposed solutions. After assessing possible challenges and pitfalls and identifying ways to overcome them, we will jointly sign an agreement, not a binding contract.",
-    },
-    {
-      id: 12,
-      question: "How do we ensure quality of deliverables?",
-      answer:
-        "We are researchers, first. We thoroughly benchmark our proposed solutions against internal and public datasets and baselines after each development sprint. After final delivery, we will continuously enhance our delivery based on your feedbacks.",
-    },
-    // Add more question-answer pairs here
   ];
 
   const toggleAnswer = (id) => {
@@ -110,20 +72,20 @@ const FaqlensCorp = () => {
       {/* Second inner div */}
       {/* <div className="outer-container flex justify-center items-center h-screen"> */}
       {/* Inner container */}
-      <div className="inner-container ml-auto mr-auto mt-2">
+      <div className="inner-container ml-auto mr-auto mt-2q ">
         {/* Question and Answer section */}
         <div className="flex flex-col md:flex-row justify-around">
           {/* Questions */}
           <div className="w-full md:w-1/7 lg:w-1/3 ">
             {questionsAndAnswers.map(({ id, question, answer }) => (
               <div key={id} className="flex flex-col  w-auto   mb-2">
-                <div className="border-2 rounded-lg flex justify-between">
+                <div className="border-2 rounded-lg relative">
                   <button
                     className="question-btn"
                     onClick={() => toggleAnswer(id)}
                   >
                     <span className="">{question}</span>
-                    <span className="ml-8">
+                    <span className="absolute top-0 right-0 mr-2 mt-2">
                       <svg
                         className={`dropdown-icon ${
                           showAnswer[id] ? "rotate-180" : ""
@@ -153,13 +115,13 @@ const FaqlensCorp = () => {
           <div className="w-full md:w-1/7 lg:w-1/3 ">
             {questionsAndAnswers2.map(({ id, question, answer }) => (
               <div key={id} className="flex flex-col  w-auto   mb-2">
-                <div className="border-2 rounded-lg flex justify-between">
+                <div className="border-2 rounded-lg relative">
                   <button
                     className="question-btn"
                     onClick={() => toggleAnswer(id)}
                   >
                     <span className="">{question}</span>
-                    <span className="ml-8">
+                    <span className="absolute top-0 right-0 mr-2 mt-2">
                       <svg
                         className={`dropdown-icon ${
                           showAnswer[id] ? "rotate-180" : ""

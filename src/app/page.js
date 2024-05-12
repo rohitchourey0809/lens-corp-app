@@ -367,8 +367,8 @@ export default function Home() {
       </section>
 
       <section className="4divcontainer" id="section-6">
-        <div className="fourcard flex flex-row justify-center gap-5 p-8">
-          <div className="card-container flex flex-wrap  justify-center p-8 flex-col sm:flex-col">
+        <div className="fourcard flex flex-col sm:flex-row justify-center gap-5 p-8">
+          <div className="card-container flex flex-wrap justify-center p-8 flex-col sm:flex-col">
             <div className="card bg-gray-800 hover:bg-green-200 p-6 rounded-lg transition duration-300 ease-in-out hover:border-2 border-green-500">
               <div className="text-center">
                 <h2 className="text-white font-bold">Exclusive Rights</h2>
@@ -392,7 +392,7 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="card-container flex flex-wrap  justify-center p-8 flex-col sm:flex-col">
+          <div className="card-container flex flex-wrap justify-center p-8 flex-col sm:flex-col">
             <div className="card bg-gray-800 hover:bg-blue-200 p-6 rounded-lg transition duration-300 ease-in-out hover:border-2 border-blue-500">
               <div className="text-center">
                 <h2 className="text-white font-bold">Exclusive Rights</h2>
@@ -409,14 +409,14 @@ export default function Home() {
               <div className="text-center">
                 <p className="text-gray-500 font-bold">
                   Our mission is to make an impact in empowering human society
-                  with AI. Hence, all Intellectual Property Rights belongs to
+                  with AI. Hence, all Intellectual Property Rights belong to
                   you.
                 </p>
               </div>
             </div>
           </div>
 
-          <div className="card-container flex flex-wrap  justify-center p-8 flex-col sm:flex-col">
+          <div className="card-container flex flex-wrap justify-center p-8 flex-col sm:flex-col">
             {" "}
             <div className="card bg-gray-800 hover:bg-red-200 p-6 rounded-lg transition duration-300 ease-in-out hover:border-2 border-red-500">
               <div className="text-center">
@@ -434,14 +434,14 @@ export default function Home() {
               <div className="text-center">
                 <p className="text-gray-500 font-bold">
                   Our mission is to make an impact in empowering human society
-                  with AI. Hence, all Intellectual Property Rights belongs to
+                  with AI. Hence, all Intellectual Property Rights belong to
                   you.
                 </p>
               </div>
             </div>
           </div>
 
-          <div className="card-container flex flex-wrap  justify-center p-8 flex-col sm:flex-col">
+          <div className="card-container flex flex-wrap justify-center p-8 flex-col sm:flex-col">
             {" "}
             <div className="card bg-gray-800 hover:bg-orange-200 p-6 rounded-lg transition duration-300 ease-in-out hover:border-2 border-orange-500">
               <div className="text-center">
@@ -459,7 +459,7 @@ export default function Home() {
               <div className="text-center">
                 <p className="text-gray-500 font-bold">
                   Our mission is to make an impact in empowering human society
-                  with AI. Hence, all Intellectual Property Rights belongs to
+                  with AI. Hence, all Intellectual Property Rights belong to
                   you.
                 </p>
               </div>
