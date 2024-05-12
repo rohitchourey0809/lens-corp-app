@@ -4,12 +4,12 @@ import cardimgeImage from "../../../public/aboutLatest.webp";
 
 const About = () => {
   return (
-    <section className="py-6 relative w-full" id="section-2">
-      <div className="aboutdiv text-white flex flex-col justify-center items-center w-full md:w-auto ">
+    <section className="w-full mb-4" id="section-2">
+      <div className="aboutdiv text-white flex flex-col justify-between items-center w-full md:w-auto p-0 hover:p-4">
         <p className="text-3xl font-bold mb-4">About Us</p>
-        <div className="carddiv flex flex-col md:flex-row items-center p-20 border-2 space-x-0 gap-80 rounded-lg shadow-md  bg-gray-900 justify-around">
+        <div className="carddiv flex flex-col md:flex-row justify-between items-center p-8 md:p-20 border-2 gap-8 rounded-lg shadow-md bg-gray-900">
           {/* Left side content */}
-          <div className="leftcarddiv mb-4 md:mb-0 md:mr-8">
+          <div className="leftcarddiv md:w-1/2 mb-8 md:mb-0 md:mr-8">
             <h1 className="text-6xl font-bold mb-2">Welcome To LENS</h1>
             <div className="text-lg mb-4">
               <p>
@@ -22,17 +22,18 @@ const About = () => {
               Learn More
             </button>
           </div>
-
           {/* Right side image */}
-          <div className="rightcarddiv flex justify-center items-center  border-2">
-            <Image
-              src={cardimgeImage}
-              alt="Image"
-              width={200}
-              height={200}
-              objectFit="contain"
-              className="hover:opacity-75 transition-opacity duration-300"
-            />
+          <div className="rightcarddiv ">
+            <div className="h-80 w-80">
+              <Image
+                src={cardimgeImage}
+                alt="Image"
+                width={400}
+                height={600}
+                objectFit="cover"
+                className="w-full h-full hover:opacity-75 transition-opacity duration-300 p-2 rounded-lg hover:p-0  hover: bg-white hover:rounded lg"
+              />
+            </div>
           </div>
         </div>
       </div>
